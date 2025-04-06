@@ -11,18 +11,15 @@ const About = () => {
   return (
     <section className="max-contaner p-20 flex flex-col gap-5">
       <h1 className="head-text">
-        Hello, I'm{" "}
-        <span className="blue-gradient_text font-semibold drop-shadow">
-          {" "}
-          Aotmick Hassan
-        </span>{" "}
-        👋
-      </h1>
+    Hello, I'm{" "}
+    <span className="blue-gradient_text font-semibold drop-shadow">
+      Farhan Rabby
+    </span>{" "}👋
+  </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
-        <p>
-          Software Engineer based in Bangladesh, specializing in technical
-          education through hands-on learning and building applications.
-        </p>
+      <p>
+      Web Designer based in Bangladesh, currently serving as the CEO of XRI Company. Passionate about crafting beautiful and responsive web interfaces with a user-centered design approach.
+    </p>
       </div>
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
@@ -44,10 +41,9 @@ const About = () => {
       <div className="py-16">
         <h3 className="subhead-text">Work Experience.</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
-          <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
-          </p>
+        <p>
+        I've collaborated with a range of companies, helping elevate their web presence through modern design strategies. Here's a glimpse of my journey:
+      </p>
         </div>
 
         <div className="mt-12 flex">

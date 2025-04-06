@@ -7,10 +7,10 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
         Hi, I'm
-        <span className='font-semibold mx-2 text-white'>Aotmick Hassan</span>
+        <span className='font-semibold mx-2 text-white'>Farhan Rabby</span>
         👋
         <br />
-        A Web Developer from Bangladesh! 🇭🇷
+        A Web Designer & CEO at XRI Company, Bangladesh 🇧🇩
       </h1>
     );
 
@@ -18,7 +18,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Worked with many companies <br /> and picked up many skills along the way!
+          Collaborated with various clients<br />and refined a broad spectrum of design skills!
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
@@ -33,7 +33,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Led multiple projects to success over the years. <br /> Curious about the impact?
+          Delivered impactful digital experiences through multiple design projects.<br />Want to see how?
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
@@ -48,8 +48,8 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
       <p className='font-medium sm:text-xl text-center'>
-        Need a project done or looking for a dev? <br/> I'm just a few keystrokes away...
-      </p>
+          Have a design idea or looking to enhance your brand? <br/> Let's bring it to life together.
+        </p>
 
       <Link to='/contact' className='neo-brutalism-white neo-btn'>
         Let's talk

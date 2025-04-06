@@ -21,7 +21,7 @@ const Footer = () => {
             alignItems: "center", // Vertically align icons
           }}>
         <p>
-          © {currentYear} <strong>Aotmick Hassan</strong> | All rights reserved.
+          © {currentYear} <strong>Farhan Rabby</strong> | All rights reserved.
         </p>
 
         <div className="flex gap-4 justify-center items-center">
