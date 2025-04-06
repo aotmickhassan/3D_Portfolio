@@ -102,7 +102,7 @@ const About = () => {
       </div>
       <hr className="border-slate-200" />
       <CTA />
-      <Footer/>
+      <Footer />
     </section>
   );
 };
