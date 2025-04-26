@@ -32,7 +32,7 @@ const Bird = () => {
   });
 
   return (
-    <mesh positon={[-5, 2, 1]} scale={.005} ref={birdRef}>
+    <mesh positon={[0, 0 ,0]} scale={.005} ref={birdRef}>
       <primitive object={scene} />
     </mesh>
   );

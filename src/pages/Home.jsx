@@ -2,7 +2,7 @@ import { Suspense, useState, useEffect, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 import Loader from "../components/Loader";
 
-import Island from "../models/Island";
+import House from "../models/house";
 import Sky from "../models/Sky";
 import Bird from "../models/Bird";
 import Plane from "../models/Plane";
@@ -29,7 +29,7 @@ const Home = () => {
     };
   }, [isPlayingMusic]);
 
-  const adjustIslanForScreenSize = () => {
+  const adjustHouseForScreenSize = () => {
     let screenScale = null;
     let screenPosition = [0, -6.5, -43];
     let rotation = [0.1, 4.7, 0];
@@ -48,13 +48,12 @@ const Home = () => {
       screenScale = [1.5, 1.5, 1.5];
       screenPosition = [0, -1.5, 0];
     } else {
-      screenScale = [3, 3, 3];
-      screenPosition = [0, -4, -4];
+      screenScale = [4.5, 4.5, 4.5];
+      screenPosition = [-.5, -4, -12];
     }
     return [screenScale, screenPosition];
   };
-  const [islandScale, islandPosition, islandRotation] =
-    adjustIslanForScreenSize();
+  const [houseScale, housePosition, houseRotation] = adjustHouseForScreenSize();
   const [planeScale, planePosition] = adjustPlaneForScreenSize();
 
   return (
@@ -79,13 +78,13 @@ const Home = () => {
             intensity={1}
           />
 
-          <Bird />
+          {/* <Bird /> */}
           <Sky isRotating={isRotating} />
 
-          <Island
-            position={islandPosition}
-            scale={islandScale}
-            rotation={islandRotation}
+          <House
+            position={housePosition}
+            scale={houseScale}
+            rotation={houseRotation}
             isRotating={isRotating}
             setIsRotating={setIsRotating}
             setCurrentStage={setCurrentStage}
